@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const path = require('path')
 const ytdl = require('ytdl-core')
-const port = process.env.PORT || $PORT;
+const port = process.env.PORT || 5030;
 const app = express();
 var axios = require('axios');
 
