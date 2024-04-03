@@ -1,5 +1,5 @@
 # Use an official Node.js image as the base image
-FROM node:17
+FROM node:18
 
 # Set environment variables
 ENV PORT=5049
